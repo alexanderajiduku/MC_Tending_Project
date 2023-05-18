@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Empty_Slot', 'Filled_Slot']
+
+roboflow:
+  workspace: university-west
+  project: machine_tending_gkn
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/university-west/machine_tending_gkn/dataset/1
